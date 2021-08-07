@@ -2,9 +2,12 @@ import React from 'react';
 
 const Recipe = ({ recipe }) => (
   <>
-    
-      <div>{recipe.name}</div>
-      <div>{recipe.description}</div>
+
+      <article className="blog-post">  
+        <h2>{recipe.name}</h2>
+        <p>{recipe.description}</p>
+      </article>
+
   </>
 );
 

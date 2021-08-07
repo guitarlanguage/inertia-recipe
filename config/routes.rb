@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   
   # get "/recipes", to: "recipes#index"
-
-  resources :recipes, only: [:index, :show]
+  
+  resources :recipes, only: [:index, :show, :new, :create]
 
   devise_for :users
   get 'inertia-example', to: 'inertia_example#index'

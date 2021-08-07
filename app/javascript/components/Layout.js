@@ -22,7 +22,7 @@ const {props: {user}} = usePage();
                 <InertiaLink className="nav-link" href="/recipes">{user.name}'s Recipes</InertiaLink>
               </li>
               <li className="nav-item">
-                <InertiaLink className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</InertiaLink>
+                <InertiaLink className="nav-link" href="/recipes/new">Create Recipe</InertiaLink>
               </li>
             </ul>
             <form className="d-flex">
